@@ -54,8 +54,6 @@
 	x++;
 	self.rightL.text = [NSString stringWithFormat:@"%i", x];
 	
-	
-	
 }
 
 

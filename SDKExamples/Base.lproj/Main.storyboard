@@ -401,7 +401,6 @@
                                     <constraint firstAttribute="width" constant="243" id="3mF-Fc-S2n"/>
                                     <constraint firstAttribute="height" constant="189" id="Y1j-jw-f7u"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="resetPressed:" destination="iNp-qF-6Ii" eventType="touchUpInside" id="mDE-sO-Xgz"/>
                                 </connections>
@@ -412,7 +411,6 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="243" id="2VG-Ty-hHK"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="rightPressed:" destination="iNp-qF-6Ii" eventType="touchUpInside" id="jLe-US-dFd"/>
                                 </connections>
@@ -423,7 +421,6 @@
                                 <constraints>
                                     <constraint firstAttribute="width" constant="243" id="4Eg-lc-DrW"/>
                                 </constraints>
-                                <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="leftPressed:" destination="iNp-qF-6Ii" eventType="touchUpInside" id="x9y-UH-aIN"/>
                                 </connections>
