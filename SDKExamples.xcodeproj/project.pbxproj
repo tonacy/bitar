@@ -1,0 +1,849 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3531A9841B6EFFC8DBF60360 /* libPods-SDKExamples.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 49D3501A26F423129631F177 /* libPods-SDKExamples.a */; };
+		DF3F30F019D20F820020B86A /* WTAugmentedRealityExperiencesManager+ExampleSections.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3F30EF19D20F820020B86A /* WTAugmentedRealityExperiencesManager+ExampleSections.m */; };
+		DF3F30F219D213780020B86A /* ARchitectExamples in Resources */ = {isa = PBXBuildFile; fileRef = DF3F30F119D213780020B86A /* ARchitectExamples */; };
+		DF3F30F519D21BA70020B86A /* WTAugmentedRealityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3F30F419D21BA70020B86A /* WTAugmentedRealityViewController.m */; };
+		DF577FBA19D077AC0002A0E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF577FB919D077AC0002A0E1 /* main.m */; };
+		DF577FBD19D077AC0002A0E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF577FBC19D077AC0002A0E1 /* AppDelegate.m */; };
+		DF577FC019D077AC0002A0E1 /* WTMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF577FBF19D077AC0002A0E1 /* WTMainTableViewController.m */; };
+		DF577FC319D077AC0002A0E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF577FC119D077AC0002A0E1 /* Main.storyboard */; };
+		DF577FC519D077AC0002A0E1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF577FC419D077AC0002A0E1 /* Images.xcassets */; };
+		DF577FC819D077AC0002A0E1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF577FC619D077AC0002A0E1 /* LaunchScreen.xib */; };
+		DF577FD419D077AC0002A0E1 /* SDKExamplesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF577FD319D077AC0002A0E1 /* SDKExamplesTests.m */; };
+		DF911D6019D0A06E008C154A /* WTPoi.m in Sources */ = {isa = PBXBuildFile; fileRef = DF911D5C19D0A06E008C154A /* WTPoi.m */; };
+		DF911D6119D0A06E008C154A /* WTPoiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DF911D5E19D0A06E008C154A /* WTPoiManager.m */; };
+		DF911D9519D0A41F008C154A /* UIDevice+SystemVersion.m in Sources */ = {isa = PBXBuildFile; fileRef = DF911D7F19D0A41F008C154A /* UIDevice+SystemVersion.m */; };
+		DF911DAA19D0A897008C154A /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF911D9F19D0A897008C154A /* Accelerate.framework */; };
+		DF911DAB19D0A897008C154A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF911DA019D0A897008C154A /* AVFoundation.framework */; };
+		DF911DAC19D0A897008C154A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF911DA119D0A897008C154A /* CFNetwork.framework */; };
+		DF911DAD19D0A897008C154A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF911DA219D0A897008C154A /* CoreLocation.framework */; };
+		DF911DAE19D0A897008C154A /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF911DA319D0A897008C154A /* CoreMotion.framework */; };
+		DF911DAF19D0A897008C154A /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF911DA419D0A897008C154A /* CoreVideo.framework */; };
+		DF911DB019D0A897008C154A /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DF911DA519D0A897008C154A /* libc++.dylib */; };
+		DF911DB119D0A897008C154A /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DF911DA619D0A897008C154A /* libz.1.2.5.dylib */; };
+		DF911DB319D0A897008C154A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF911DA819D0A897008C154A /* OpenGLES.framework */; };
+		DF911DB419D0A897008C154A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF911DA919D0A897008C154A /* Security.framework */; };
+		DF911DB619D0A8D0008C154A /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF911DB519D0A8D0008C154A /* CoreMedia.framework */; };
+		DF911DB719D0A90C008C154A /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF911DA719D0A897008C154A /* MediaPlayer.framework */; };
+		DFAF7A6219D94C2900B380C2 /* Examples.plist in Resources */ = {isa = PBXBuildFile; fileRef = DFAF7A6119D94C2900B380C2 /* Examples.plist */; };
+		DFAF7A6919D959A500B380C2 /* WTPoiDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFAF7A6819D959A500B380C2 /* WTPoiDetailViewController.m */; };
+		DFAF7A6E19D95C9600B380C2 /* WikitudeSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFAF7A6D19D95C9600B380C2 /* WikitudeSDK.framework */; };
+		DFDB192919D15F28008A3A1A /* WTManageURLsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDB192819D15F28008A3A1A /* WTManageURLsViewController.m */; };
+		DFDB192C19D15FAE008A3A1A /* WTCreateURLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDB192B19D15FAE008A3A1A /* WTCreateURLViewController.m */; };
+		DFDB193019D176D8008A3A1A /* WTAugmentedRealityExperience.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDB192F19D176D8008A3A1A /* WTAugmentedRealityExperience.m */; };
+		DFDB193319D18850008A3A1A /* WTAugmentedRealityExperiencesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDB193219D18850008A3A1A /* WTAugmentedRealityExperiencesManager.m */; };
+		DFDB193919D1ADD6008A3A1A /* UIColor+WikitudeColors.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDB193819D1ADD6008A3A1A /* UIColor+WikitudeColors.m */; };
+		DFDB193D19D1C021008A3A1A /* WTAugmentedRealityExperiencesManager+HostSections.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDB193C19D1C021008A3A1A /* WTAugmentedRealityExperiencesManager+HostSections.m */; };
+		DFDF276E19D417E1002C6B8E /* WTAugmentedRealityViewController+ApplicationModelExample.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDF276D19D417E1002C6B8E /* WTAugmentedRealityViewController+ApplicationModelExample.m */; };
+		DFDF277119D419EC002C6B8E /* WTAugmentedRealityViewController+ExampleCategoryManagement.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDF277019D419EC002C6B8E /* WTAugmentedRealityViewController+ExampleCategoryManagement.m */; };
+		DFDF277419D41A74002C6B8E /* WTAugmentedRealityViewController+PresentingPoiDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDF277319D41A74002C6B8E /* WTAugmentedRealityViewController+PresentingPoiDetails.m */; };
+		DFDF277719D41AA6002C6B8E /* WTAugmentedRealityViewController+ScreenshotSharing.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDF277619D41AA6002C6B8E /* WTAugmentedRealityViewController+ScreenshotSharing.m */; };
+		DFDF277A19D43495002C6B8E /* NSURL+ParameterQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDF277919D43495002C6B8E /* NSURL+ParameterQuery.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF577FCE19D077AC0002A0E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF577FAC19D077AC0002A0E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF577FB319D077AC0002A0E1;
+			remoteInfo = SDKExamples;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49D3501A26F423129631F177 /* libPods-SDKExamples.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SDKExamples.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F695F4DE8759966D2F4EEF4 /* Pods-SDKExamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDKExamples.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SDKExamples/Pods-SDKExamples.debug.xcconfig"; sourceTree = "<group>"; };
+		7CDE888BCF3BC58BD76CC050 /* Pods-SDKExamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDKExamples.release.xcconfig"; path = "Pods/Target Support Files/Pods-SDKExamples/Pods-SDKExamples.release.xcconfig"; sourceTree = "<group>"; };
+		DF3F30EE19D20F820020B86A /* WTAugmentedRealityExperiencesManager+ExampleSections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "WTAugmentedRealityExperiencesManager+ExampleSections.h"; path = "Categories/WTAugmentedRealityExperiencesManager+ExampleSections.h"; sourceTree = "<group>"; };
+		DF3F30EF19D20F820020B86A /* WTAugmentedRealityExperiencesManager+ExampleSections.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "WTAugmentedRealityExperiencesManager+ExampleSections.m"; path = "Categories/WTAugmentedRealityExperiencesManager+ExampleSections.m"; sourceTree = "<group>"; };
+		DF3F30F119D213780020B86A /* ARchitectExamples */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ARchitectExamples; path = SDKExamples/ARchitectExamples; sourceTree = "<group>"; };
+		DF3F30F319D21BA70020B86A /* WTAugmentedRealityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTAugmentedRealityViewController.h; sourceTree = "<group>"; };
+		DF3F30F419D21BA70020B86A /* WTAugmentedRealityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTAugmentedRealityViewController.m; sourceTree = "<group>"; };
+		DF577FB419D077AC0002A0E1 /* SDKExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDKExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF577FB819D077AC0002A0E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF577FB919D077AC0002A0E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF577FBB19D077AC0002A0E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF577FBC19D077AC0002A0E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF577FBE19D077AC0002A0E1 /* WTMainTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = WTMainTableViewController.h; path = SDKExamples/Controller/Application/WTMainTableViewController.h; sourceTree = "<group>"; };
+		DF577FBF19D077AC0002A0E1 /* WTMainTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = WTMainTableViewController.m; path = SDKExamples/Controller/Application/WTMainTableViewController.m; sourceTree = "<group>"; };
+		DF577FC219D077AC0002A0E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF577FC419D077AC0002A0E1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DF577FC719D077AC0002A0E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DF577FCD19D077AC0002A0E1 /* SDKExamplesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDKExamplesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF577FD219D077AC0002A0E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF577FD319D077AC0002A0E1 /* SDKExamplesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDKExamplesTests.m; sourceTree = "<group>"; };
+		DF911D5B19D0A06E008C154A /* WTPoi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTPoi.h; sourceTree = "<group>"; };
+		DF911D5C19D0A06E008C154A /* WTPoi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTPoi.m; sourceTree = "<group>"; };
+		DF911D5D19D0A06E008C154A /* WTPoiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTPoiManager.h; sourceTree = "<group>"; };
+		DF911D5E19D0A06E008C154A /* WTPoiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTPoiManager.m; sourceTree = "<group>"; };
+		DF911D7E19D0A41F008C154A /* UIDevice+SystemVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+SystemVersion.h"; sourceTree = "<group>"; };
+		DF911D7F19D0A41F008C154A /* UIDevice+SystemVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+SystemVersion.m"; sourceTree = "<group>"; };
+		DF911D9E19D0A489008C154A /* WTCoreServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTCoreServices.h; sourceTree = "<group>"; };
+		DF911D9F19D0A897008C154A /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		DF911DA019D0A897008C154A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DF911DA119D0A897008C154A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		DF911DA219D0A897008C154A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DF911DA319D0A897008C154A /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		DF911DA419D0A897008C154A /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		DF911DA519D0A897008C154A /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		DF911DA619D0A897008C154A /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		DF911DA719D0A897008C154A /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		DF911DA819D0A897008C154A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		DF911DA919D0A897008C154A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		DF911DB519D0A8D0008C154A /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		DFAF7A6119D94C2900B380C2 /* Examples.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Examples.plist; sourceTree = "<group>"; };
+		DFAF7A6719D959A500B380C2 /* WTPoiDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WTPoiDetailViewController.h; path = PresentingPoiDetails/WTPoiDetailViewController.h; sourceTree = "<group>"; };
+		DFAF7A6819D959A500B380C2 /* WTPoiDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WTPoiDetailViewController.m; path = PresentingPoiDetails/WTPoiDetailViewController.m; sourceTree = "<group>"; };
+		DFAF7A6D19D95C9600B380C2 /* WikitudeSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WikitudeSDK.framework; path = SDKExamples/Frameworks/WikitudeSDK.framework; sourceTree = "<group>"; };
+		DFDB192719D15F28008A3A1A /* WTManageURLsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WTManageURLsViewController.h; path = SDKExamples/Controller/Application/WTManageURLsViewController.h; sourceTree = "<group>"; };
+		DFDB192819D15F28008A3A1A /* WTManageURLsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WTManageURLsViewController.m; path = SDKExamples/Controller/Application/WTManageURLsViewController.m; sourceTree = "<group>"; };
+		DFDB192A19D15FAE008A3A1A /* WTCreateURLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WTCreateURLViewController.h; path = SDKExamples/Controller/Application/WTCreateURLViewController.h; sourceTree = "<group>"; };
+		DFDB192B19D15FAE008A3A1A /* WTCreateURLViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WTCreateURLViewController.m; path = SDKExamples/Controller/Application/WTCreateURLViewController.m; sourceTree = "<group>"; };
+		DFDB192E19D176D8008A3A1A /* WTAugmentedRealityExperience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTAugmentedRealityExperience.h; sourceTree = "<group>"; };
+		DFDB192F19D176D8008A3A1A /* WTAugmentedRealityExperience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTAugmentedRealityExperience.m; sourceTree = "<group>"; };
+		DFDB193119D18850008A3A1A /* WTAugmentedRealityExperiencesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTAugmentedRealityExperiencesManager.h; sourceTree = "<group>"; };
+		DFDB193219D18850008A3A1A /* WTAugmentedRealityExperiencesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTAugmentedRealityExperiencesManager.m; sourceTree = "<group>"; };
+		DFDB193419D194A5008A3A1A /* WTSegueDefinitions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTSegueDefinitions.h; sourceTree = "<group>"; };
+		DFDB193719D1ADD6008A3A1A /* UIColor+WikitudeColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+WikitudeColors.h"; sourceTree = "<group>"; };
+		DFDB193819D1ADD6008A3A1A /* UIColor+WikitudeColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WikitudeColors.m"; sourceTree = "<group>"; };
+		DFDB193B19D1C021008A3A1A /* WTAugmentedRealityExperiencesManager+HostSections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "WTAugmentedRealityExperiencesManager+HostSections.h"; path = "Categories/WTAugmentedRealityExperiencesManager+HostSections.h"; sourceTree = "<group>"; };
+		DFDB193C19D1C021008A3A1A /* WTAugmentedRealityExperiencesManager+HostSections.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "WTAugmentedRealityExperiencesManager+HostSections.m"; path = "Categories/WTAugmentedRealityExperiencesManager+HostSections.m"; sourceTree = "<group>"; };
+		DFDF276C19D417E1002C6B8E /* WTAugmentedRealityViewController+ApplicationModelExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "WTAugmentedRealityViewController+ApplicationModelExample.h"; path = "SDKExamples/Controller/Examples/Categories/WTAugmentedRealityViewController+ApplicationModelExample.h"; sourceTree = "<group>"; };
+		DFDF276D19D417E1002C6B8E /* WTAugmentedRealityViewController+ApplicationModelExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "WTAugmentedRealityViewController+ApplicationModelExample.m"; path = "SDKExamples/Controller/Examples/Categories/WTAugmentedRealityViewController+ApplicationModelExample.m"; sourceTree = "<group>"; };
+		DFDF276F19D419EC002C6B8E /* WTAugmentedRealityViewController+ExampleCategoryManagement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "WTAugmentedRealityViewController+ExampleCategoryManagement.h"; path = "SDKExamples/Controller/Examples/Categories/WTAugmentedRealityViewController+ExampleCategoryManagement.h"; sourceTree = "<group>"; };
+		DFDF277019D419EC002C6B8E /* WTAugmentedRealityViewController+ExampleCategoryManagement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "WTAugmentedRealityViewController+ExampleCategoryManagement.m"; path = "SDKExamples/Controller/Examples/Categories/WTAugmentedRealityViewController+ExampleCategoryManagement.m"; sourceTree = "<group>"; };
+		DFDF277219D41A74002C6B8E /* WTAugmentedRealityViewController+PresentingPoiDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "WTAugmentedRealityViewController+PresentingPoiDetails.h"; path = "SDKExamples/Controller/Examples/Categories/WTAugmentedRealityViewController+PresentingPoiDetails.h"; sourceTree = "<group>"; };
+		DFDF277319D41A74002C6B8E /* WTAugmentedRealityViewController+PresentingPoiDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "WTAugmentedRealityViewController+PresentingPoiDetails.m"; path = "SDKExamples/Controller/Examples/Categories/WTAugmentedRealityViewController+PresentingPoiDetails.m"; sourceTree = "<group>"; };
+		DFDF277519D41AA6002C6B8E /* WTAugmentedRealityViewController+ScreenshotSharing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "WTAugmentedRealityViewController+ScreenshotSharing.h"; path = "SDKExamples/Controller/Examples/Categories/WTAugmentedRealityViewController+ScreenshotSharing.h"; sourceTree = "<group>"; };
+		DFDF277619D41AA6002C6B8E /* WTAugmentedRealityViewController+ScreenshotSharing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "WTAugmentedRealityViewController+ScreenshotSharing.m"; path = "SDKExamples/Controller/Examples/Categories/WTAugmentedRealityViewController+ScreenshotSharing.m"; sourceTree = "<group>"; };
+		DFDF277819D43495002C6B8E /* NSURL+ParameterQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+ParameterQuery.h"; sourceTree = "<group>"; };
+		DFDF277919D43495002C6B8E /* NSURL+ParameterQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+ParameterQuery.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF577FB119D077AC0002A0E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFAF7A6E19D95C9600B380C2 /* WikitudeSDK.framework in Frameworks */,
+				DF911DB719D0A90C008C154A /* MediaPlayer.framework in Frameworks */,
+				DF911DB619D0A8D0008C154A /* CoreMedia.framework in Frameworks */,
+				DF911DAA19D0A897008C154A /* Accelerate.framework in Frameworks */,
+				DF911DAB19D0A897008C154A /* AVFoundation.framework in Frameworks */,
+				DF911DAC19D0A897008C154A /* CFNetwork.framework in Frameworks */,
+				DF911DAD19D0A897008C154A /* CoreLocation.framework in Frameworks */,
+				DF911DAE19D0A897008C154A /* CoreMotion.framework in Frameworks */,
+				DF911DAF19D0A897008C154A /* CoreVideo.framework in Frameworks */,
+				DF911DB019D0A897008C154A /* libc++.dylib in Frameworks */,
+				DF911DB119D0A897008C154A /* libz.1.2.5.dylib in Frameworks */,
+				DF911DB319D0A897008C154A /* OpenGLES.framework in Frameworks */,
+				DF911DB419D0A897008C154A /* Security.framework in Frameworks */,
+				3531A9841B6EFFC8DBF60360 /* libPods-SDKExamples.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF577FCA19D077AC0002A0E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB13B1F1D5043BC5C1635F92 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F695F4DE8759966D2F4EEF4 /* Pods-SDKExamples.debug.xcconfig */,
+				7CDE888BCF3BC58BD76CC050 /* Pods-SDKExamples.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DF577FAB19D077AC0002A0E1 = {
+			isa = PBXGroup;
+			children = (
+				DF3F30F119D213780020B86A /* ARchitectExamples */,
+				DF911D4B19D09FFA008C154A /* Classes */,
+				DF577FB619D077AC0002A0E1 /* SDKExamples */,
+				DF577FD019D077AC0002A0E1 /* SDKExamplesTests */,
+				DF911D7B19D0A2BD008C154A /* Frameworks */,
+				DF577FB519D077AC0002A0E1 /* Products */,
+				CB13B1F1D5043BC5C1635F92 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		DF577FB519D077AC0002A0E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF577FB419D077AC0002A0E1 /* SDKExamples.app */,
+				DF577FCD19D077AC0002A0E1 /* SDKExamplesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF577FB619D077AC0002A0E1 /* SDKExamples */ = {
+			isa = PBXGroup;
+			children = (
+				DF577FBB19D077AC0002A0E1 /* AppDelegate.h */,
+				DF577FBC19D077AC0002A0E1 /* AppDelegate.m */,
+				DF577FC119D077AC0002A0E1 /* Main.storyboard */,
+				DF577FC419D077AC0002A0E1 /* Images.xcassets */,
+				DF577FC619D077AC0002A0E1 /* LaunchScreen.xib */,
+				DF577FB719D077AC0002A0E1 /* Supporting Files */,
+			);
+			path = SDKExamples;
+			sourceTree = "<group>";
+		};
+		DF577FB719D077AC0002A0E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFAF7A6119D94C2900B380C2 /* Examples.plist */,
+				DF577FB819D077AC0002A0E1 /* Info.plist */,
+				DF577FB919D077AC0002A0E1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF577FD019D077AC0002A0E1 /* SDKExamplesTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF577FD319D077AC0002A0E1 /* SDKExamplesTests.m */,
+				DF577FD119D077AC0002A0E1 /* Supporting Files */,
+			);
+			path = SDKExamplesTests;
+			sourceTree = "<group>";
+		};
+		DF577FD119D077AC0002A0E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF577FD219D077AC0002A0E1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF911D4A19D09FF0008C154A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DF911D4D19D0A00C008C154A /* Application */,
+				DF911D6219D0A07A008C154A /* Examples */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		DF911D4B19D09FFA008C154A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DF911D7C19D0A41F008C154A /* CoreServices */,
+				DF911D4C19D0A000008C154A /* Model */,
+				DF911D4A19D09FF0008C154A /* Controller */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		DF911D4C19D0A000008C154A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DF911D5619D0A06E008C154A /* Application */,
+				DF911D5919D0A06E008C154A /* Examples */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DF911D4D19D0A00C008C154A /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				DF577FBE19D077AC0002A0E1 /* WTMainTableViewController.h */,
+				DF577FBF19D077AC0002A0E1 /* WTMainTableViewController.m */,
+				DFDB192719D15F28008A3A1A /* WTManageURLsViewController.h */,
+				DFDB192819D15F28008A3A1A /* WTManageURLsViewController.m */,
+				DFDB192A19D15FAE008A3A1A /* WTCreateURLViewController.h */,
+				DFDB192B19D15FAE008A3A1A /* WTCreateURLViewController.m */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		DF911D5619D0A06E008C154A /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				DFDB193A19D1BFD2008A3A1A /* Categories */,
+				DFDB192E19D176D8008A3A1A /* WTAugmentedRealityExperience.h */,
+				DFDB192F19D176D8008A3A1A /* WTAugmentedRealityExperience.m */,
+				DFDB193119D18850008A3A1A /* WTAugmentedRealityExperiencesManager.h */,
+				DFDB193219D18850008A3A1A /* WTAugmentedRealityExperiencesManager.m */,
+			);
+			name = Application;
+			path = SDKExamples/Model/Application;
+			sourceTree = "<group>";
+		};
+		DF911D5919D0A06E008C154A /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				DF911D5A19D0A06E008C154A /* POIModel */,
+			);
+			name = Examples;
+			path = SDKExamples/Model/Examples;
+			sourceTree = "<group>";
+		};
+		DF911D5A19D0A06E008C154A /* POIModel */ = {
+			isa = PBXGroup;
+			children = (
+				DF911D5B19D0A06E008C154A /* WTPoi.h */,
+				DF911D5C19D0A06E008C154A /* WTPoi.m */,
+				DF911D5D19D0A06E008C154A /* WTPoiManager.h */,
+				DF911D5E19D0A06E008C154A /* WTPoiManager.m */,
+			);
+			path = POIModel;
+			sourceTree = "<group>";
+		};
+		DF911D6219D0A07A008C154A /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				DFDF276B19D41720002C6B8E /* Categories */,
+				DFAF7A6619D9590500B380C2 /* PresentingPoiDetails */,
+				DF3F30F319D21BA70020B86A /* WTAugmentedRealityViewController.h */,
+				DF3F30F419D21BA70020B86A /* WTAugmentedRealityViewController.m */,
+			);
+			name = Examples;
+			path = SDKExamples/Controller/Examples;
+			sourceTree = "<group>";
+		};
+		DF911D7B19D0A2BD008C154A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF911D9F19D0A897008C154A /* Accelerate.framework */,
+				DF911DA019D0A897008C154A /* AVFoundation.framework */,
+				DF911DA119D0A897008C154A /* CFNetwork.framework */,
+				DF911DA219D0A897008C154A /* CoreLocation.framework */,
+				DF911DB519D0A8D0008C154A /* CoreMedia.framework */,
+				DF911DA319D0A897008C154A /* CoreMotion.framework */,
+				DF911DA419D0A897008C154A /* CoreVideo.framework */,
+				DF911DA519D0A897008C154A /* libc++.dylib */,
+				DF911DA619D0A897008C154A /* libz.1.2.5.dylib */,
+				DF911DA719D0A897008C154A /* MediaPlayer.framework */,
+				DF911DA819D0A897008C154A /* OpenGLES.framework */,
+				DF911DA919D0A897008C154A /* Security.framework */,
+				DFAF7A6D19D95C9600B380C2 /* WikitudeSDK.framework */,
+				49D3501A26F423129631F177 /* libPods-SDKExamples.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF911D7C19D0A41F008C154A /* CoreServices */ = {
+			isa = PBXGroup;
+			children = (
+				DF911D7D19D0A41F008C154A /* Categories */,
+				DF911D9E19D0A489008C154A /* WTCoreServices.h */,
+				DFDB193419D194A5008A3A1A /* WTSegueDefinitions.h */,
+			);
+			name = CoreServices;
+			path = SDKExamples/CoreServices;
+			sourceTree = "<group>";
+		};
+		DF911D7D19D0A41F008C154A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				DF911D7E19D0A41F008C154A /* UIDevice+SystemVersion.h */,
+				DF911D7F19D0A41F008C154A /* UIDevice+SystemVersion.m */,
+				DFDB193719D1ADD6008A3A1A /* UIColor+WikitudeColors.h */,
+				DFDB193819D1ADD6008A3A1A /* UIColor+WikitudeColors.m */,
+				DFDF277819D43495002C6B8E /* NSURL+ParameterQuery.h */,
+				DFDF277919D43495002C6B8E /* NSURL+ParameterQuery.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		DFAF7A6319D9587500B380C2 /* PresentingPoiDetails */ = {
+			isa = PBXGroup;
+			children = (
+				DFDF277219D41A74002C6B8E /* WTAugmentedRealityViewController+PresentingPoiDetails.h */,
+				DFDF277319D41A74002C6B8E /* WTAugmentedRealityViewController+PresentingPoiDetails.m */,
+			);
+			name = PresentingPoiDetails;
+			sourceTree = "<group>";
+		};
+		DFAF7A6419D9588300B380C2 /* Screenshot */ = {
+			isa = PBXGroup;
+			children = (
+				DFDF277519D41AA6002C6B8E /* WTAugmentedRealityViewController+ScreenshotSharing.h */,
+				DFDF277619D41AA6002C6B8E /* WTAugmentedRealityViewController+ScreenshotSharing.m */,
+			);
+			name = Screenshot;
+			sourceTree = "<group>";
+		};
+		DFAF7A6519D9589000B380C2 /* ApplicationModel */ = {
+			isa = PBXGroup;
+			children = (
+				DFDF276C19D417E1002C6B8E /* WTAugmentedRealityViewController+ApplicationModelExample.h */,
+				DFDF276D19D417E1002C6B8E /* WTAugmentedRealityViewController+ApplicationModelExample.m */,
+			);
+			name = ApplicationModel;
+			sourceTree = "<group>";
+		};
+		DFAF7A6619D9590500B380C2 /* PresentingPoiDetails */ = {
+			isa = PBXGroup;
+			children = (
+				DFAF7A6719D959A500B380C2 /* WTPoiDetailViewController.h */,
+				DFAF7A6819D959A500B380C2 /* WTPoiDetailViewController.m */,
+			);
+			name = PresentingPoiDetails;
+			sourceTree = "<group>";
+		};
+		DFDB193A19D1BFD2008A3A1A /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				DFDB193B19D1C021008A3A1A /* WTAugmentedRealityExperiencesManager+HostSections.h */,
+				DFDB193C19D1C021008A3A1A /* WTAugmentedRealityExperiencesManager+HostSections.m */,
+				DF3F30EE19D20F820020B86A /* WTAugmentedRealityExperiencesManager+ExampleSections.h */,
+				DF3F30EF19D20F820020B86A /* WTAugmentedRealityExperiencesManager+ExampleSections.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		DFDF276B19D41720002C6B8E /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				DFAF7A6519D9589000B380C2 /* ApplicationModel */,
+				DFAF7A6419D9588300B380C2 /* Screenshot */,
+				DFAF7A6319D9587500B380C2 /* PresentingPoiDetails */,
+				DFDF276F19D419EC002C6B8E /* WTAugmentedRealityViewController+ExampleCategoryManagement.h */,
+				DFDF277019D419EC002C6B8E /* WTAugmentedRealityViewController+ExampleCategoryManagement.m */,
+			);
+			name = Categories;
+			path = ../../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF577FB319D077AC0002A0E1 /* SDKExamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF577FD719D077AC0002A0E1 /* Build configuration list for PBXNativeTarget "SDKExamples" */;
+			buildPhases = (
+				503CDB816CACCA03E45F4B45 /* Check Pods Manifest.lock */,
+				DF577FB019D077AC0002A0E1 /* Sources */,
+				DF577FB119D077AC0002A0E1 /* Frameworks */,
+				DF577FB219D077AC0002A0E1 /* Resources */,
+				244C54CF0651F48E7A250484 /* Embed Pods Frameworks */,
+				D47995F9E159BE8CDD2FF36C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDKExamples;
+			productName = SDKExamples;
+			productReference = DF577FB419D077AC0002A0E1 /* SDKExamples.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF577FCC19D077AC0002A0E1 /* SDKExamplesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF577FDA19D077AC0002A0E1 /* Build configuration list for PBXNativeTarget "SDKExamplesTests" */;
+			buildPhases = (
+				DF577FC919D077AC0002A0E1 /* Sources */,
+				DF577FCA19D077AC0002A0E1 /* Frameworks */,
+				DF577FCB19D077AC0002A0E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF577FCF19D077AC0002A0E1 /* PBXTargetDependency */,
+			);
+			name = SDKExamplesTests;
+			productName = SDKExamplesTests;
+			productReference = DF577FCD19D077AC0002A0E1 /* SDKExamplesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF577FAC19D077AC0002A0E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Wikitude;
+				TargetAttributes = {
+					DF577FB319D077AC0002A0E1 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					DF577FCC19D077AC0002A0E1 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = DF577FB319D077AC0002A0E1;
+					};
+				};
+			};
+			buildConfigurationList = DF577FAF19D077AC0002A0E1 /* Build configuration list for PBXProject "SDKExamples" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF577FAB19D077AC0002A0E1;
+			productRefGroup = DF577FB519D077AC0002A0E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF577FB319D077AC0002A0E1 /* SDKExamples */,
+				DF577FCC19D077AC0002A0E1 /* SDKExamplesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF577FB219D077AC0002A0E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF577FC319D077AC0002A0E1 /* Main.storyboard in Resources */,
+				DFAF7A6219D94C2900B380C2 /* Examples.plist in Resources */,
+				DF3F30F219D213780020B86A /* ARchitectExamples in Resources */,
+				DF577FC819D077AC0002A0E1 /* LaunchScreen.xib in Resources */,
+				DF577FC519D077AC0002A0E1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF577FCB19D077AC0002A0E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		244C54CF0651F48E7A250484 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SDKExamples/Pods-SDKExamples-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		503CDB816CACCA03E45F4B45 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D47995F9E159BE8CDD2FF36C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SDKExamples/Pods-SDKExamples-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF577FB019D077AC0002A0E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFDF277419D41A74002C6B8E /* WTAugmentedRealityViewController+PresentingPoiDetails.m in Sources */,
+				DF911D6019D0A06E008C154A /* WTPoi.m in Sources */,
+				DFDB193019D176D8008A3A1A /* WTAugmentedRealityExperience.m in Sources */,
+				DF911D6119D0A06E008C154A /* WTPoiManager.m in Sources */,
+				DFDB192C19D15FAE008A3A1A /* WTCreateURLViewController.m in Sources */,
+				DFDF277719D41AA6002C6B8E /* WTAugmentedRealityViewController+ScreenshotSharing.m in Sources */,
+				DFDF277119D419EC002C6B8E /* WTAugmentedRealityViewController+ExampleCategoryManagement.m in Sources */,
+				DFDB193319D18850008A3A1A /* WTAugmentedRealityExperiencesManager.m in Sources */,
+				DF3F30F519D21BA70020B86A /* WTAugmentedRealityViewController.m in Sources */,
+				DFDB192919D15F28008A3A1A /* WTManageURLsViewController.m in Sources */,
+				DFDF277A19D43495002C6B8E /* NSURL+ParameterQuery.m in Sources */,
+				DF911D9519D0A41F008C154A /* UIDevice+SystemVersion.m in Sources */,
+				DF577FC019D077AC0002A0E1 /* WTMainTableViewController.m in Sources */,
+				DFDB193919D1ADD6008A3A1A /* UIColor+WikitudeColors.m in Sources */,
+				DF577FBD19D077AC0002A0E1 /* AppDelegate.m in Sources */,
+				DF3F30F019D20F820020B86A /* WTAugmentedRealityExperiencesManager+ExampleSections.m in Sources */,
+				DF577FBA19D077AC0002A0E1 /* main.m in Sources */,
+				DFDB193D19D1C021008A3A1A /* WTAugmentedRealityExperiencesManager+HostSections.m in Sources */,
+				DFDF276E19D417E1002C6B8E /* WTAugmentedRealityViewController+ApplicationModelExample.m in Sources */,
+				DFAF7A6919D959A500B380C2 /* WTPoiDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF577FC919D077AC0002A0E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF577FD419D077AC0002A0E1 /* SDKExamplesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF577FCF19D077AC0002A0E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF577FB319D077AC0002A0E1 /* SDKExamples */;
+			targetProxy = DF577FCE19D077AC0002A0E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF577FC119D077AC0002A0E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF577FC219D077AC0002A0E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF577FC619D077AC0002A0E1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF577FC719D077AC0002A0E1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF577FD519D077AC0002A0E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF577FD619D077AC0002A0E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF577FD819D077AC0002A0E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F695F4DE8759966D2F4EEF4 /* Pods-SDKExamples.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDKExamples/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(BUILT_PRODUCTS_DIR)/",
+				);
+				INFOPLIST_FILE = SDKExamples/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(BUILT_PRODUCTS_DIR)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DF577FD919D077AC0002A0E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CDE888BCF3BC58BD76CC050 /* Pods-SDKExamples.release.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					"$(ARCHS_STANDARD)",
+					armv7s,
+				);
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SDKExamples/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(BUILT_PRODUCTS_DIR)/",
+				);
+				INFOPLIST_FILE = SDKExamples/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(BUILT_PRODUCTS_DIR)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DF577FDB19D077AC0002A0E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SDKExamplesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDKExamples.app/SDKExamples";
+			};
+			name = Debug;
+		};
+		DF577FDC19D077AC0002A0E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SDKExamplesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDKExamples.app/SDKExamples";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF577FAF19D077AC0002A0E1 /* Build configuration list for PBXProject "SDKExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF577FD519D077AC0002A0E1 /* Debug */,
+				DF577FD619D077AC0002A0E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF577FD719D077AC0002A0E1 /* Build configuration list for PBXNativeTarget "SDKExamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF577FD819D077AC0002A0E1 /* Debug */,
+				DF577FD919D077AC0002A0E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF577FDA19D077AC0002A0E1 /* Build configuration list for PBXNativeTarget "SDKExamplesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF577FDB19D077AC0002A0E1 /* Debug */,
+				DF577FDC19D077AC0002A0E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF577FAC19D077AC0002A0E1 /* Project object */;
+}

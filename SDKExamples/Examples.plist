@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<dict>
+			<key>GroupTitle</key>
+			<string>Image Recognition</string>
+			<key>Mode</key>
+			<string>IR</string>
+			<key>Path</key>
+			<string>1_ImageRecognition_1_ImageOnTarget</string>
+			<key>Title</key>
+			<string>Image On Target</string>
+		</dict>
+		<dict>
+			<key>GroupTitle</key>
+			<string>Image Recognition</string>
+			<key>Mode</key>
+			<string>IR</string>
+			<key>Path</key>
+			<string>1_ImageRecognition_2_MultipleTargets</string>
+			<key>Title</key>
+			<string>Multiple Targets</string>
+		</dict>
+		<dict>
+			<key>GroupTitle</key>
+			<string>Image Recognition</string>
+			<key>Mode</key>
+			<string>IR</string>
+			<key>Path</key>
+			<string>1_ImageRecognition_3_Interactivity</string>
+			<key>Title</key>
+			<string>Interactivity</string>
+		</dict>
+		<dict>
+			<key>GroupTitle</key>
+			<string>Image Recognition</string>
+			<key>Mode</key>
+			<string>IR</string>
+			<key>Path</key>
+			<string>1_ImageRecognition_4_HtmlDrawable</string>
+			<key>Title</key>
+			<string>Html Drawable</string>
+		</dict>
+		<dict>
+			<key>GroupTitle</key>
+			<string>Image Recognition</string>
+			<key>Mode</key>
+			<string>IR</string>
+			<key>Path</key>
+			<string>1_ImageRecognition_5_Bonus-Sparkles</string>
+			<key>Title</key>
+			<string>Bonus: Sparkles</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>GroupTitle</key>
+			<string>3d And Image Recognition</string>
+			<key>Mode</key>
+			<string>IR</string>
+			<key>Path</key>
+			<string>2_3dAndImageRecognition_1_3dModelOnTarget</string>
+			<key>Title</key>
+			<string>3d Model On Target</string>
+		</dict>
+		<dict>
+			<key>GroupTitle</key>
+			<string>3d And Image Recognition</string>
+			<key>Mode</key>
+			<string>IR</string>
+			<key>Path</key>
+			<string>2_3dAndImageRecognition_2_AppearingAnimation</string>
+			<key>Title</key>
+			<string>Appearing Animation</string>
+		</dict>
+		<dict>
+			<key>GroupTitle</key>
+			<string>3d And Image Recognition</string>
+			<key>Mode</key>
+			<string>IR</string>
+			<key>Path</key>
+			<string>2_3dAndImageRecognition_3_Interactivity</string>
+			<key>Title</key>
+			<string>Interactivity</string>
+		</dict>
+		<dict>
+			<key>GroupTitle</key>
+			<string>3d And Image Recognition</string>
+			<key>Mode</key>
+			<string>IR</string>
+			<key>Path</key>
+			<string>2_3dAndImageRecognition_4_SnapToScreen</string>
+			<key>Title</key>
+			<string>Snap To Screen</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>GroupTitle</key>
+			<string>Point Of Interest</string>
+			<key>Mode</key>
+			<string>Geo</string>
+			<key>Path</key>
+			<string>3_PointOfInterest_1_PoiAtLocation</string>
+			<key>Title</key>
+			<string>Poi At Location</string>
+		</dict>
+		<dict>
+			<key>GroupTitle</key>
+			<string>Point Of Interest</string>
+			<key>Mode</key>
+			<string>Geo</string>
+			<key>Path</key>
+			<string>3_PointOfInterest_2_PoiWithLabel</string>
+			<key>Title</key>
+			<string>Poi With Label</string>
+		</dict>
+		<dict>
+			<key>GroupTitle</key>
+			<string>Point Of Interest</string>
+			<key>Mode</key>
+			<string>Geo</string>
+			<key>Path</key>
+			<string>3_PointOfInterest_3_MultiplePois</string>
+			<key>Title</key>
+			<string>Multiple Pois</string>
+		</dict>
+		<dict>
+			<key>GroupTitle</key>
+			<string>Point Of Interest</string>
+			<key>Mode</key>
+			<string>Geo</string>
+			<key>Path</key>
+			<string>3_PointOfInterest_4_SelectingPois</string>
+			<key>Title</key>
+			<string>Selecting Pois</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>GroupTitle</key>
+			<string>Obtain Poi Data</string>
+			<key>Mode</key>
+			<string>Geo</string>
+			<key>Path</key>
+			<string>4_ObtainPoiData_1_FromApplicationModel</string>
+			<key>Title</key>
+			<string>From Application Model</string>
+		</dict>
+		<dict>
+			<key>GroupTitle</key>
+			<string>Obtain Poi Data</string>
+			<key>Mode</key>
+			<string>Geo</string>
+			<key>Path</key>
+			<string>4_ObtainPoiData_2_FromLocalResource</string>
+			<key>Title</key>
+			<string>From Local Resource</string>
+		</dict>
+		<dict>
+			<key>GroupTitle</key>
+			<string>Obtain Poi Data</string>
+			<key>Mode</key>
+			<string>Geo</string>
+			<key>Path</key>
+			<string>4_ObtainPoiData_3_FromWebservice</string>
+			<key>Title</key>
+			<string>From Webservice</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>GroupTitle</key>
+			<string>Browsing Pois</string>
+			<key>Mode</key>
+			<string>Geo</string>
+			<key>Path</key>
+			<string>5_BrowsingPois_1_PresentingDetails</string>
+			<key>Title</key>
+			<string>Presenting Details</string>
+		</dict>
+		<dict>
+			<key>GroupTitle</key>
+			<string>Browsing Pois</string>
+			<key>Mode</key>
+			<string>Geo</string>
+			<key>Path</key>
+			<string>5_BrowsingPois_2_AddingRadar</string>
+			<key>Title</key>
+			<string>Adding Radar</string>
+		</dict>
+		<dict>
+			<key>GroupTitle</key>
+			<string>Browsing Pois</string>
+			<key>Mode</key>
+			<string>Geo</string>
+			<key>Path</key>
+			<string>5_BrowsingPois_3_LimitingRange</string>
+			<key>Title</key>
+			<string>Limiting Range</string>
+		</dict>
+		<dict>
+			<key>GroupTitle</key>
+			<string>Browsing Pois</string>
+			<key>Mode</key>
+			<string>Geo</string>
+			<key>Path</key>
+			<string>5_BrowsingPois_4_ReloadingContent</string>
+			<key>Title</key>
+			<string>Reloading Content</string>
+		</dict>
+		<dict>
+			<key>GroupTitle</key>
+			<string>Browsing Pois</string>
+			<key>Mode</key>
+			<string>Geo</string>
+			<key>Path</key>
+			<string>5_BrowsingPois_5_NativeDetailScreen</string>
+			<key>Title</key>
+			<string>Native Detail Screen</string>
+		</dict>
+		<dict>
+			<key>GroupTitle</key>
+			<string>Browsing Pois</string>
+			<key>Mode</key>
+			<string>Geo</string>
+			<key>Path</key>
+			<string>5_BrowsingPois_6_CaptureScreenBonus</string>
+			<key>Title</key>
+			<string>Capture Screen Bonus</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>GroupTitle</key>
+			<string>Video</string>
+			<key>Mode</key>
+			<string>IR</string>
+			<key>Path</key>
+			<string>6_Video_1_SimpleVideo</string>
+			<key>Title</key>
+			<string>Simple Video</string>
+		</dict>
+		<dict>
+			<key>GroupTitle</key>
+			<string>Video</string>
+			<key>Mode</key>
+			<string>IR</string>
+			<key>Path</key>
+			<string>6_Video_2_PlaybackStates</string>
+			<key>Title</key>
+			<string>Playback States</string>
+		</dict>
+		<dict>
+			<key>GroupTitle</key>
+			<string>Video</string>
+			<key>Mode</key>
+			<string>IR</string>
+			<key>Path</key>
+			<string>6_Video_3_SnappingVideo</string>
+			<key>Title</key>
+			<string>Snapping Video</string>
+		</dict>
+		<dict>
+			<key>GroupTitle</key>
+			<string>Video</string>
+			<key>Mode</key>
+			<string>IR</string>
+			<key>Path</key>
+			<string>6_Video_4_Bonus-TransparentVideo</string>
+			<key>Title</key>
+			<string>Bonus: Transparent Video</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>GroupTitle</key>
+			<string>Demo</string>
+			<key>Mode</key>
+			<string>Geo</string>
+			<key>Path</key>
+			<string>99_Demo_1_ImageRecognitionAndGeo</string>
+			<key>Title</key>
+			<string>Image Recognition And Geo</string>
+		</dict>
+		<dict>
+			<key>GroupTitle</key>
+			<string>Demo</string>
+			<key>Mode</key>
+			<string>Geo</string>
+			<key>Path</key>
+			<string>99_Demo_2_SolarSystem(Geo)</string>
+			<key>Title</key>
+			<string>Solar System( Geo)</string>
+		</dict>
+		<dict>
+			<key>GroupTitle</key>
+			<string>Demo</string>
+			<key>Mode</key>
+			<string>IR</string>
+			<key>Path</key>
+			<string>99_Demo_3_SolarSystem(ImageRecognition)</string>
+			<key>Title</key>
+			<string>Solar System( Image Recognition)</string>
+		</dict>
+	</array>
+</array>
+</plist>

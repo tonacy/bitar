@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment defaultVersion="1792" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KOJ-pM-ZfA">
+                    <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="7rH-br-JyU"/>
+                    </constraints>
+                    <items>
+                        <navigationItem title="Wikitude SDK" id="6fF-C6-bEU"/>
+                    </items>
+                </navigationBar>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ala-h6-qCp">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="20"/>
+                    <color key="backgroundColor" red="0.9647059440612793" green="0.9647059440612793" blue="0.9647059440612793" alpha="1" colorSpace="deviceRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="0gE-O2-TWc"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.92549026010000002" green="0.92549026010000002" blue="0.94901967050000002" alpha="1" colorSpace="deviceRGB"/>
+            <constraints>
+                <constraint firstItem="KOJ-pM-ZfA" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="Net-ER-nAa"/>
+                <constraint firstItem="ala-h6-qCp" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="UuU-hi-DtN"/>
+                <constraint firstItem="ala-h6-qCp" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="XX8-8I-Dh7"/>
+                <constraint firstItem="KOJ-pM-ZfA" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="j9m-DJ-Y8L"/>
+                <constraint firstAttribute="trailing" secondItem="KOJ-pM-ZfA" secondAttribute="trailing" id="lUb-VD-aRD"/>
+                <constraint firstAttribute="trailing" secondItem="ala-h6-qCp" secondAttribute="trailing" id="thc-K5-t1V"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+</document>
